@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody Palace</title>
+    <!--STYLES CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--FONT AWESOME CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--SWIPER-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!--HEADER SECTION START-->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>Foody.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="order">Order</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+
+
+    <!--HEADER SECTION END-->
+
+
+    <!-- search form -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- search form -->
+
+    <!-- Home Section Starts -->
+    <section class="home" id-="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Spicy Rotini</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum expedita nisi tempore. Eum,
+                            sit?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/rotini.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Beef Roast</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum expedita nisi tempore. Eum,
+                            sit?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/roastedchicken.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Roasted Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum expedita nisi tempore. Eum,
+                            sit?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/roastedchicken.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum expedita nisi tempore. Eum,
+                            sit?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/rotini.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+    <!-- Home Section Ends -->
+
+
+</body>
+
+<!--SCRIPT JS-->
+<script src="script.js"></script>
+<!--SWIPER JS-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</html>
